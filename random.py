@@ -1,6 +1,8 @@
 import random
 
 # Random string of length 5
-result_str = ''.join((random.choice('abcdxyzpqr') for i in range(5)))
+panjang = 
+result_str = ''.join((random.choice('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') for i in range(panjang)))
 print(result_str)
+hasil = result_str
 # Output ryxay
